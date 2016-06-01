@@ -16,4 +16,4 @@ But in some circumstances while loop is the only option.
 
 ## Homework
 
-Finish `laughWhileYouCan.py` by instructions.
+Finish `laughWhileYouCan.py` and `rich.py` by instructions.
