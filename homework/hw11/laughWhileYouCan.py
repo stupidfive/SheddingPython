@@ -1,6 +1,6 @@
 import random
 
-# You have 90% of change to be able to laugh.
+# You have 90% of chance to be able to laugh.
 def canLaugh():
     return random.random() > 0.1
 
