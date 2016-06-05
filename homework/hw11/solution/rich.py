@@ -14,5 +14,8 @@ day = 0
 
 # Your code here.
 
+while wealth < 10000.0:
+    wealth = wealth + wealth * 0.2 + salary
+    day += 1
 
 print 'You got rich in %d days' % day
