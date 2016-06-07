@@ -5,6 +5,7 @@ import random
 
 pressure = 1.0
 pressureRate = 1 + random.randint(7, 17) / 1000.0
+pressureLimit = 100.0   # how much pressure you can endure
 print 'pressureRate = %f' % pressureRate
 day = 0
 
