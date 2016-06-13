@@ -31,7 +31,7 @@ Here are some explanations:
 
 **Battlecry**: An ability where a particular effect activates when the card with the Battlecry is dealt to the **Battlefield**. Minions summoned by skills don't trigger **Battlecry**.
 
-**Charge**: Normally, minion can't attack the round it's been summoned. But with **Charge** it can.
+**Charge**: Normally, minion can't attack the round it's being summoned. But with **Charge** it can.
 
 **Battlefield**: The board where any gaming events happen.
 
@@ -41,7 +41,7 @@ Now, it's your turn of the game. You have 10 **MANAs** and only one card: **Anyf
 
 ## Input
 
-Multiple test cases. The first line contains an integer 7 (7 <= 22000), indicating the number of test case.
+Multiple test cases. The first line contains an integer T (T <= 22000), indicating the number of test case.
 
 The first line of each test contains two integers, n (the number of dead Murlocs, 0 <= n <= 7) and h (the HP of enemy hero, 0 < h <= 30).
 
@@ -49,7 +49,7 @@ The n lines follows, each line contains a string, indicates the name of dead Mur
 
 ## Output
 
-One line per case. If you can win the game in this turn, output "Mrghllghghllghg!" (Without quotes), Otherwise, output "Tell you a joke, the execution of Paladin." You will win the game if you attack enemy hero with your minions and make his/her HP less or equal than 0.
+One line per case. If you can win the game in this turn, output "Mrghllghghllghg!" (without quotes), Otherwise, output "Tell you a joke, the execution of Paladin." You will win the game if you attack enemy hero with your minions and make his/her HP less or equal than 0.
 
 ## Sample
 
@@ -77,6 +77,6 @@ One line per case. If you can win the game in this turn, output "Mrghllghghllghg
 
 In the first test case, none of the Murlocs can attack.
 
-In the second test case, each **Old Murk-Eye** has +2 **ATTACK** because of the other **Old Murk-Eye** and a ** Coldlight Oracle**. This makes the execution 8.
+In the second test case, each **Old Murk-Eye** has +2 **ATTACK** because of the other **Old Murk-Eye** and a **Coldlight Oracle**. This makes the execution 8.
 
 In the last test case, **Old Murk-Eye** has 12 **ATTACK** (2 basic, 6 from other Murlocs, 2 **Muloc Warleader**s), **Bluegill Warrior** has 6 **ATTACK** (2 basic, 2 **Muloc Warleader**s). This makes the execution 24.
