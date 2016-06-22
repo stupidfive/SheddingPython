@@ -10,14 +10,14 @@ There are many different minions in Murloc race, here are four of them:
 
 Coldlight Oracle: 3 **MANA**, 2 **ATTACK**, 2 **HP**. **Battlecry**: Each player draws 2 cards.
 
-Muloc Warleader: 3 **MANA**, 3 **ATTACK**, 3 **HP**. All other Murlocs have +2/+1.
+Murloc Warleader: 3 **MANA**, 3 **ATTACK**, 3 **HP**. All other Murlocs have +2/+1.
 
 Bluegill Warrior: 2 **MANA**, 2 **ATTACK**, 3 **HP**. **Charge**.
 
 Old Murk-Eye: 4 **MANA**, 2 **ATTACK**, 3 **HP**. **Charge**. Has +1 Attack for each other Murloc on the **Battlefield**.
 
 ![Coldlight Oracle](http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_050.png)
-![Muloc Warleader](http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_507.png)
+![Murloc Warleader](http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_507.png)
 ![Bluegill Warrior](http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_173.png)
 ![Old Murk-Eye](http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_062.png)
 
@@ -45,7 +45,7 @@ Multiple test cases. The first line contains an integer T (T <= 22000), indicati
 
 The first line of each test contains two integers, n (the number of dead Murlocs, 0 <= n <= 7) and h (the HP of enemy hero, 0 < h <= 30).
 
-The n lines follows, each line contains a string, indicates the name of dead Murloc. The string will only be "**Coldlight Oracle**", "**Muloc Warleader**", "**Bluegill Warrior**" or "**Old Murk-Eye**".
+The n lines follows, each line contains a string, indicates the name of dead Murloc. The string will only be "**Coldlight Oracle**", "**Murloc Warleader**", "**Bluegill Warrior**" or "**Old Murk-Eye**".
 
 ## Output
 
@@ -59,7 +59,7 @@ One line per case. If you can win the game in this turn, output "Mrghllghghllghg
 | 3 1              | Mrghllghghllghg                            |
 | Coldlight Oracle | Tell you a joke, the execution of Paladin. |
 | Coldlight Oracle |                                            |
-| Muloc Warleader  |                                            |
+| Murloc Warleader |                                            |
 | 3 8              |                                            |
 | Old Murk-Eye     |                                            |
 | Old Murk-Eye     |                                            |
@@ -68,8 +68,8 @@ One line per case. If you can win the game in this turn, output "Mrghllghghllghg
 | Old Murk-Eye     |                                            |
 | Bluegill Warrior |                                            |
 | Bluegill Warrior |                                            |
-| Muloc Warleader  |                                            |
-| Muloc Warleader  |                                            |
+| Murloc Warleader |                                            |
+| Murloc Warleader |                                            |
 | Coldlight Oracle |                                            |
 | Coldlight Oracle |                                            |
 
@@ -79,4 +79,8 @@ In the first test case, none of the Murlocs can attack.
 
 In the second test case, each **Old Murk-Eye** has +2 **ATTACK** because of the other **Old Murk-Eye** and a **Coldlight Oracle**. This makes the execution 8.
 
-In the last test case, **Old Murk-Eye** has 12 **ATTACK** (2 basic, 6 from other Murlocs, 2 **Muloc Warleader**s), **Bluegill Warrior** has 6 **ATTACK** (2 basic, 2 **Muloc Warleader**s). This makes the execution 24.
+In the last test case, **Old Murk-Eye** has 12 **ATTACK** (2 basic, 6 from other Murlocs, 2 **Murloc Warleader**s), **Bluegill Warrior** has 6 **ATTACK** (2 basic, 2 **Murloc Warleader**s). This makes the execution 24.
+
+## Submit
+
+Submit your program in `execution.py`. The input file (we provide) name is: `input.txt` and the output produce by the program: `output.txt`.
